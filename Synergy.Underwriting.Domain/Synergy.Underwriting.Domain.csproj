@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CodeAnalysisRuleSet>..\Synergy.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>CA1710</NoWarn>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.108.4" />
+    <PackageReference Include="FluentValidation" Version="8.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+	<PackageReference Include="Synergy.Common.Analyzers" Version="4.20.0" />
+    <PackageReference Include="Synergy.Common" Version="4.20.0" />
+    <PackageReference Include="Synergy.Common.Domain.Models" Version="4.20.0" />
+    <PackageReference Include="Synergy.Common.FileStorage.Abstraction" Version="4.20.0" />
+    <PackageReference Include="Synergy.DataAccess.Dictionaries.Queries" Version="4.20.10" />
+    <PackageReference Include="Synergy.ServiceBus.Abstracts" Version="4.20.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Synergy.Underwriting.DAL.Queries.Entities\Synergy.Underwriting.DAL.Queries.Entities.csproj" />
+    <ProjectReference Include="..\Synergy.Underwriting.DAL.Queries.Original\Synergy.Underwriting.DAL.Queries.Original.csproj" />
+    <ProjectReference Include="..\Synergy.Underwriting.Models\Synergy.Underwriting.Models.csproj" />
+  </ItemGroup>
+
+</Project>

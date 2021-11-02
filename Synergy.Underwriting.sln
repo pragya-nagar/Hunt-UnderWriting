@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.API", "Synergy.Underwriting.API\Synergy.Underwriting.API.csproj", "{7FE9AF2B-4F12-4CC1-BC52-8D885375E65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.Domain", "Synergy.Underwriting.Domain\Synergy.Underwriting.Domain.csproj", "{6257D2B3-6308-4403-AD85-A3514235D204}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C2B8A7ED-C14C-4FFC-8CDF-8065248BC5F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.Services.Host", "Synergy.Underwriting.Services.Host\Synergy.Underwriting.Services.Host.csproj", "{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.Services", "Synergy.Underwriting.Services\Synergy.Underwriting.Services.csproj", "{1CECC3B5-8766-401C-8E73-020DA0AFE84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synergy.Underwriting.Services", "Synergy.Underwriting.Services", "{E348841C-BD9E-4B4A-915B-38C80AABF7EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.Models", "Synergy.Underwriting.Models\Synergy.Underwriting.Models.csproj", "{B2E9D468-9EFA-4416-BEB2-A3C44B05A0DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{99226BFF-1595-4094-B625-7FECCEEBDEBB}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synergy.Underwriting.DAL.Queries", "Synergy.Underwriting.DAL.Queries", "{992776EC-F401-4EB0-8B3F-BCAEF0F57785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.DAL.Queries.PostgreSQL", "Synergy.Underwriting.DAL.Queries.PostgreSQL\Synergy.Underwriting.DAL.Queries.PostgreSQL.csproj", "{7064CC2F-8294-4788-9B2F-36E8FA56C7A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.DAL.Queries.Entities", "Synergy.Underwriting.DAL.Queries.Entities\Synergy.Underwriting.DAL.Queries.Entities.csproj", "{3F894645-B3E3-4F7E-A885-ED7C7A6F6682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.DAL.Queries.Original", "Synergy.Underwriting.DAL.Queries.Original\Synergy.Underwriting.DAL.Queries.Original.csproj", "{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synergy.Underwriting.DAL.Command", "Synergy.Underwriting.DAL.Command", "{702B8A97-461F-4B40-A23F-3DDD603CBAE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.Underwriting.DAL.Commands", "Synergy.Underwriting.DAL.Commands\Synergy.Underwriting.DAL.Commands.csproj", "{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57B5F77F-0EC8-400A-B1CA-EA95F2CA1C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synergy.Underwriting.Simplified", "..\Synergy.Underwriting.Simplified\Synergy.Underwriting.Simplified.csproj", "{B88ECA0C-4FF5-4A13-B394-0D2A61CD7D3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE9AF2B-4F12-4CC1-BC52-8D885375E65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE9AF2B-4F12-4CC1-BC52-8D885375E65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE9AF2B-4F12-4CC1-BC52-8D885375E65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE9AF2B-4F12-4CC1-BC52-8D885375E65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6257D2B3-6308-4403-AD85-A3514235D204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6257D2B3-6308-4403-AD85-A3514235D204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6257D2B3-6308-4403-AD85-A3514235D204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6257D2B3-6308-4403-AD85-A3514235D204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B8A7ED-C14C-4FFC-8CDF-8065248BC5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B8A7ED-C14C-4FFC-8CDF-8065248BC5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B8A7ED-C14C-4FFC-8CDF-8065248BC5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B8A7ED-C14C-4FFC-8CDF-8065248BC5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CECC3B5-8766-401C-8E73-020DA0AFE84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CECC3B5-8766-401C-8E73-020DA0AFE84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CECC3B5-8766-401C-8E73-020DA0AFE84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CECC3B5-8766-401C-8E73-020DA0AFE84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E9D468-9EFA-4416-BEB2-A3C44B05A0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E9D468-9EFA-4416-BEB2-A3C44B05A0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E9D468-9EFA-4416-BEB2-A3C44B05A0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E9D468-9EFA-4416-BEB2-A3C44B05A0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7064CC2F-8294-4788-9B2F-36E8FA56C7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7064CC2F-8294-4788-9B2F-36E8FA56C7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7064CC2F-8294-4788-9B2F-36E8FA56C7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7064CC2F-8294-4788-9B2F-36E8FA56C7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F894645-B3E3-4F7E-A885-ED7C7A6F6682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F894645-B3E3-4F7E-A885-ED7C7A6F6682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F894645-B3E3-4F7E-A885-ED7C7A6F6682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F894645-B3E3-4F7E-A885-ED7C7A6F6682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88ECA0C-4FF5-4A13-B394-0D2A61CD7D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88ECA0C-4FF5-4A13-B394-0D2A61CD7D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88ECA0C-4FF5-4A13-B394-0D2A61CD7D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88ECA0C-4FF5-4A13-B394-0D2A61CD7D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{043F3904-8A08-4AAC-AD16-FA0BD0BDDB67} = {E348841C-BD9E-4B4A-915B-38C80AABF7EA}
+		{1CECC3B5-8766-401C-8E73-020DA0AFE84D} = {E348841C-BD9E-4B4A-915B-38C80AABF7EA}
+		{7064CC2F-8294-4788-9B2F-36E8FA56C7A2} = {992776EC-F401-4EB0-8B3F-BCAEF0F57785}
+		{3F894645-B3E3-4F7E-A885-ED7C7A6F6682} = {992776EC-F401-4EB0-8B3F-BCAEF0F57785}
+		{BBCD1F6D-E1EB-4757-B803-A58FD89CF96D} = {992776EC-F401-4EB0-8B3F-BCAEF0F57785}
+		{FFFDC9E4-8DD1-4529-8997-2F7E492ACB9C} = {702B8A97-461F-4B40-A23F-3DDD603CBAE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD40BADE-3D3F-41CF-BAC6-DB427AD0548C}
+	EndGlobalSection
+EndGlobal
